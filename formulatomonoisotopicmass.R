@@ -1,5 +1,6 @@
 library(OrgMassSpecR)
 setwd("C:/Users/manue/Desktop")
+library(readxl)
 xbib<- as.data.frame(read_excel("formulatomonoisotopicmass_input_example.xlsx"))
 x<-xbib$Formula
 
